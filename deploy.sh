@@ -22,4 +22,4 @@ mix release
 
 echo "Starting app..."
 
-PROD=t ./start.sh
+_build/prod/rel/practice/bin/practice stop || true

@@ -1,5 +1,6 @@
 [Unit]
 Description=HW04 Elixir Practice
+After=network.target
 
 [Service]
 Type=simple
