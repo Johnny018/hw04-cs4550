@@ -13,12 +13,11 @@ defmodule Practice.Calc do
     |> parse_float
     |> :math.sqrt()
 
-    # Hint:
-    # expr
-    # |> split
-    # |> tag_tokens  (e.g. [+, 1] => [{:op, "+"}, {:num, 1.0}]
-    # |> convert to postfix
-    # |> reverse to prefix
-    # |> evaluate as a stack calculator using pattern matching
+    expr
+    |> split
+    |> tag_tokens  (e.g. [+, 1] => [{:op, "+"}, {:num, 1.0}]
+    |> convert to postfix
+    |> reverse to prefix
+    |> evaluate as a stack calculator using pattern matching
   end
 end
