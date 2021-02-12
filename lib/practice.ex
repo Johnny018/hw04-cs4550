@@ -21,5 +21,10 @@ defmodule Practice do
     [1,2,x]
   end
 
-  # TODO: Add a palindrome? function.
+  def palindrome(sn) do
+    Integer.to_String(sn)
+    |> reverse
+    |> palindrome
+  end
+
 end
