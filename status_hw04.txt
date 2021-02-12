@@ -18,7 +18,7 @@ Completed all the files that needed to be fix
 
 
 5. Did you successfully deploy? If not, what's broken?
-I couldn't deploy it, I had an error running that didn't let me install mix deps.get
+I couldn't deploy it, I had compiling errors
 
 
 6. How comfortable do you feel with Elixir now?
